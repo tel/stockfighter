@@ -1,0 +1,24 @@
+
+@import "~bourbon/app/assets/stylesheets/bourbon";
+@import "~susy/sass/susy";
+
+$default-bg: white;
+$default-text: black;
+
+body {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  @include container(80em);
+}
+
+h1 {
+  @include linear-gradient(to top, blue, black);
+  color: white;
+  font-size: 2em;
+  margin: 0.5em 0 1em;
+
+  & > small {
+    color: gray;
+    font-size: 70%;
+  }
+}

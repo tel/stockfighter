@@ -1,0 +1,10 @@
+resolver: lts-3.15
+
+packages:
+- machine
+
+extra-deps: []
+
+flags: {}
+
+extra-package-dbs: []

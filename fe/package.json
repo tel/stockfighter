@@ -1,0 +1,23 @@
+{
+  "name": "simple-brunch",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --progress --colors --watch",
+    "dev-server": "browser-sync start --config bs-config.js"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.10.0",
+    "connect-history-api-fallback": "^1.1.0",
+    "css-loader": "^0.23.0",
+    "exports-loader": "^0.6.2",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "html-webpack-plugin": "^1.7.0",
+    "node-bourbon": "^4.2.3",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.2",
+    "susy": "^2.2.6",
+    "temp": "^0.8.3",
+    "webpack": "^1.12.9"
+  }
+}
